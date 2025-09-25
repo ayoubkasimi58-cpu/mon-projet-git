@@ -1,4 +1,4 @@
-function  thisisme(){
+function  Prototype(){
     let first = ["C1", "C3","C2", "C1" , "C8" , "C2" ,"C1" , "C4"];
     let two = prompt("ecris le code à chercer(ex: C1,C2,C3...):")
     let  three= 0;
@@ -9,4 +9,4 @@ function  thisisme(){
     }
     console.log( " la code " + two + " apparait " + three + " fois. " ) 
 }
-thisisme(); 
+Prototype(); 
