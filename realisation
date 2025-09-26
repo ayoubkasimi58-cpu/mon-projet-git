@@ -1,0 +1,6 @@
+let C=["C1","C2","C3","C4","C5","C6","C7","C8"],s=0;
+for(let i=0;i<C.length;i++){
+  let a=prompt("Tape "+C[i]);
+  if(a===C[i]){console.log("✅");s++}else console.log("❌ "+C[i]);
+}
+console.log("Score: "+s+"/8")
